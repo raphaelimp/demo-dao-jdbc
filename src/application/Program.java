@@ -44,7 +44,7 @@ public class Program {
 		System.out.println();
 		
 		System.out.println("=== Delete ===");
-		System.out.println("Enter id to delete: ");
+		System.out.print("Enter id to delete: ");
 		int id = sc.nextInt();
 		sd.deleteById(id);
 		System.out.println("Delete completed!");
